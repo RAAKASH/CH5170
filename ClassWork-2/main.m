@@ -7,8 +7,8 @@ X = X0';
 i = 1;
 val = func(X0,nan);
 %% Contour plot
-xran = 0.5:.001:3.5;
-yran = -3.5:.001:2;
+xran = 0.5:.1:3.5;
+yran = -3.5:.1:2;
 m = length(xran);
 n = length(yran);
 Z = zeros(m,m);
